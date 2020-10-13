@@ -10,7 +10,7 @@ let m = 1           //Mass
 let r = 0.5         //Radius of the wheel
 let pi = Math.PI    //Pi
 
-//Make a function to simulate the physics. Returns the hashed index. Args are the energy applied to spin the wheel (e), and the number of items to hash (m). It's the sum of unicode characters in the key
+//Make a function to simulate the physics. Returns the hashed index. Args are the energy applied to spin the wheel (e), and the number of items to hash (m).
 spinTheWheel = (e, m) => {
     //Arc length of spin
     let s = e / (muk * m * g)
